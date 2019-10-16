@@ -8,16 +8,16 @@ permalink: /reading/
 
 [Hackernews](https://news.ycombinator.com), [DiscoverDev](https://www.discoverdev.io), [Techmeme](https://techmeme.com), [ArsTechnica](https://www.arstechnica.com), [Zero Hedge](https://www.zerohedge.com)
 
-## People 
+## Blogs 
 
 [Why Blog?](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 
 - [Dan Abramov](https://overreacted.io) 
 - [Tania Rascia](https://www.taniarascia.com)
-- [Jeff Atwood](https://blog.codinghorror.com)
+- [Coding Horror (Jeff Atwood)](https://blog.codinghorror.com)
 - [Joel Spolsky](https://www.joelonsoftware.com)
-- [Maciej Ceglowski (Idle Words)](https://idlewords.com)
-- [John Gruber (Daring Fireball)](https://daringfireball.net)
+- [Idle Words (Maciej Ceglowski)](https://idlewords.com)
+- [Daring Fireball (John Gruber)](https://daringfireball.net)
 - [Dan Luu]()
 - [Patrick Collison](https://patrickcollison.com): CEO of Stripe
 - [Paul Graham](http://www.paulgraham.com/articles.html): YCombinator
