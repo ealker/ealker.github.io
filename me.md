@@ -1,28 +1,14 @@
 ---
 layout: page
-title: Me
-permalink: /me/
+title: Reading
+permalink: /reading/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-# Test
-
-## University (2016 - Present)
-
-
-I keep my lecture notes and work on Github: 
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-## Reading 
-
-### Sites 
+## Sites 
 
 [Hackernews](https://news.ycombinator.com), [DiscoverDev](https://www.discoverdev.io), [Techmeme](https://techmeme.com), [ArsTechnica](https://www.arstechnica.com), [Zero Hedge](https://www.zerohedge.com)
 
-### People 
+## People 
 
 [Why Blog?](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 
@@ -38,8 +24,8 @@ I keep my lecture notes and work on Github:
 - [Bruce Schneier (Schneier on Security)](https://www.schneier.com)
 - [Harry Samuels](http://blog.hnjsamuels.co.uk): All around good guy
 
-### Articles
+## Articles
 
 That every software engineer should read...
 
-- [Teach Yourself Programmign in 10 Years]
+- [Teach Yourself Programming in 10 Years](https://norvig.com/21-days.html)
