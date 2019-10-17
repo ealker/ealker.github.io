@@ -6,7 +6,7 @@ permalink: /reading/
 
 ## Sites 
 
-[Hackernews](https://news.ycombinator.com), [DiscoverDev](https://www.discoverdev.io), [Techmeme](https://techmeme.com), [ArsTechnica](https://www.arstechnica.com), [Zero Hedge](https://www.zerohedge.com), [Space News](https://spacenews.com)
+[Hackernews](https://news.ycombinator.com), [DiscoverDev](https://www.discoverdev.io), [Techmeme](https://techmeme.com), [ArsTechnica](https://www.arstechnica.com), [Zero Hedge](https://www.zerohedge.com), [Space News](https://spacenews.com), [Design Milk](https://design-milk.com)
 
 ## Blogs 
 
