@@ -29,3 +29,5 @@ permalink: /reading/
 That every software engineer should read...
 
 - [Teach Yourself Programming in 10 Years](https://norvig.com/21-days.html)
+
+## Books 
