@@ -1,16 +1,13 @@
-<html>
-    <head>
-      <link rel="stylesheet" type="text/css" href="/post.css">
-      <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-    <h3><a href="/index.html"/>Home</a></h3>
-    <header>
-        <h1>Posts</h1>
-     </header>
-    <ul>
-      <li><a href="/posts/2020/review-2020-03-22.html">Weekly Review 22nd March 2020</a></li>
-      <li><a href="/posts/2020/dont-know-2020-10-25.html">Things I Don't Know (2020)</a></li>
-    </ul>
-    </body>
- </html>
+---
+layout: page
+title: Blog
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
