@@ -3,10 +3,17 @@ layout: page
 title: Blog Posts
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+    {% assign date = currentdate %} 
+  {% endif %}
+    <ul>
+        <li>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.date | date: '%B %d, %Y' }}</p>
+        </li>
+    </ul>
+{% endfor %}
+
