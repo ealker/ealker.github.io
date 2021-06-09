@@ -4,17 +4,20 @@ body {
     margin-right: 15%;
     margin-bottom: 10%;
     margin-left: 15%;
+    line-height: 1.5;
+    padding: 4em 1em;
     font-family: "Lucida Grande", sans-serif;
 }
 
 h1 {
     color: black;
     font-size: 5em;
-    animation-iteration-count: 1;
 }
 
 h2 {
     color: black;
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 h3 {
@@ -33,6 +36,10 @@ p {
     color: black;
 }
 
+strong {
+    color: #333;
+}
+
 a {
     text-decoration: none;
     
@@ -44,4 +51,18 @@ a:hover {
 
 .head {
     margin-bottom: 30px;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
 }
