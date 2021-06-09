@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    font-family: "Lucida Grande", sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 5em;
+    animation-iteration-count: 1;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+ul, li {
+    list-style-type: none;
+    list-style-position:inside;
+    text-align: left;
+    margin-top: 10px;
+    padding:0; 
+}
+
+p {
+    color: black;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: blue;
+}
+
+.head {
+    margin-bottom: 30px;
+}

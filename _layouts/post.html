@@ -1,9 +1,24 @@
----
-layout: default
----
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <title>{{ page.title }}</title>
+    </head>
+    
+    <body>
+        
+        <h1>{{ page.title }}</h1>
 
-<h1>{{ page.title }}</h1>
+        <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+        
+        {{ content }}
+        
+    </body>
+</html>
 
-<h3>{{ page.date | date: "%B %d, %Y" }}</h3>
 
-{{ content }}
+
+
+
