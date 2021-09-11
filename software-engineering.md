@@ -42,3 +42,4 @@ That every software engineer should read…
 - [Kalzumeus (Patrick McKenzie)](https://www.kalzumeus.com/)
 - [Derek Sivers](https://sivers.org/)
 - [Professor Matt Might](http://matt.might.net/articles/)
+
