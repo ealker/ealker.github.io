@@ -1,6 +1,10 @@
-@import url('https://web.archive.org/web/20180901054854cs_/https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://web.archive.org/web/20180901054854cs_/https://fonts.googleapis.com/css?family=Arvo');
-@import url('https://web.archive.org/web/20180901054854cs_/https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// * {
+//   border: 1px dotted black;
+// }
 
 html {
   position: relative;
@@ -11,7 +15,6 @@ body {
     background-color: white;
     line-height: 1.5;
     font-family: "Lucida Grande", sans-serif;
-    margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
 h1 {
