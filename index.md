@@ -12,6 +12,7 @@ title: Elliot Alker
 
 
 <div class="container">
+<h2>Latest Posts</h2>
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
     <ul>
