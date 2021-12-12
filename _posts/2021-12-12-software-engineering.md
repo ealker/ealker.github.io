@@ -1,13 +1,11 @@
 ---
-layout: page
-title: Software Engineering
+layout: post
+title: Software Engineering Guide
 ---
 
 Working on your craft is one of the most important things that you can do. You spend a large amount of your life at work, so you might as well be good at what you do. This page is a collection of resources that have helped me to become better at software engineering.
  
-## Articles
-    
-That every software engineer should read…
+## Articles    
 
 - [Teach Yourself Programming in 10 Years](https://norvig.com/21-days.html)
 
@@ -17,6 +15,7 @@ That every software engineer should read…
 - [The Last Lecture (Randy Pausch)](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
 ## Books
+I re-read sections of these books frequently. 
 
 - Mythical Man Month (Brooks)
 - Clean Code (Martin)
@@ -28,6 +27,7 @@ That every software engineer should read…
 - Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
 
 ## Blog Roll
+Blog rolls aren't really a thing anymore, but here is a list to get you started. I've learnt a lot from these blogs. 
 
 - [Overreacted (Dan Abramov)](https://overreacted.io)
 - [Tania Rascia](https://www.taniarascia.com)

@@ -13,9 +13,8 @@ layout: default
     
     <body>
         <div class="container">
-            <button><a href="/blog.html">All Posts</a></button>
             <h1>{{ page.title }}</h1>
-            <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+            <p>Posted: {{ page.date | date: "%B %d, %Y" }}</p>
             {{ content }}
         </div>
     </body>

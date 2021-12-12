@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A New Monitor for 2021" 
+title: "A New Monitor" 
 ---
 
 #### Boring Context 

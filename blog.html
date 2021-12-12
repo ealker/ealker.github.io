@@ -2,12 +2,10 @@
 layout: bloghome
 ---
 
-<div class="container">
-
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+    <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
     {% assign date = currentdate %} 
   {% endif %}
     <ul>
@@ -17,5 +15,3 @@ layout: bloghome
         </li>
     </ul>
 {% endfor %}
-
-</div>

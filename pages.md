@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pages
+title: Sitemap
 ---
 
 All of the sites permalinks. 
