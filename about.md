@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
 Hi, I'm Elliot, a Site Reliability/Software Engineer based in London.
