@@ -12,6 +12,8 @@ I studied Computer Science at [Aberystwyth University](https://www.aber.ac.uk/en
 I currently work with enterprise monitoring systems, message oriented middleware, infrastructure APIs and highly available cloud services at [JP Morgan](https://www.jpmorgan.com/insights/technology). Whilst my title is Software Engineer, due to the nature of my work I could be considered an [SRE engineer](https://www.redhat.com/en/topics/devops/what-is-sre).
 
 I enjoy things that work, learning why they work and fixing things that don't work.
+
+I have professional experience in Java, JavaScript, TypeScript and Go. I've shipped code using both  React and Spring frameworks. I've also used Kafka, Grafana, Docker, InfluxDB, Cassandra, Zookeeper in both personal and professional settings.  
     
 #### Personal
 
