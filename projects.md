@@ -3,7 +3,7 @@ layout: page
 title: Projects 
 ---
 
-## Software
+### Software
 A collection of software I've written.
 
 #### Web Apps
@@ -25,12 +25,16 @@ A collection of software I've written.
 
 #### Scripts
 
-| Title     | Description                 | Links                                                               |
-| --------- | --------------------------- | ------------------------------------------------------------------- |
-| wordcount | Count unique words in file. | [Script](./wordcount.py), [GitHub Link](www.github.com/elliotalker) | 
+I have various scripts on my [GitHub account](www.github.com/elliotalker).
   
-## Ongoing
-Projects that aren't and probably won't be *done*.
 
-#### [Smarthome](./projects/smarthome.html)
-#### [Movies I've Watched](./projects/movies.html)
+### Lists
+
+Outside of my weekly review posts, I like to track long term trends in my media consumption. 
+
+- [Books I've Read](./projects/bookshelf.html)
+- [Movies I've Watched](./projects/movies.html)
+
+### Smarthome 
+
+I have an interest in smarthome technology. I've setup [a page](./projects/smarthome.html) to document my progress.

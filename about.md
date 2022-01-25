@@ -3,19 +3,19 @@ layout: page
 title: About Me
 ---
 
-Hi, I'm Elliot, a Site Reliability/Software Engineer based in London.
+##### Hi, I'm Elliot, a Site Reliability/Software Engineer based in London.
+<img src="./assets/img/elliot/elliot-small.jpg" width="200">
 
+#### Professional Bio
 
-#### Professional 
-
-I studied Computer Science at [Aberystwyth University](https://www.aber.ac.uk/en/cs/) in Wales, graduating in 2020 after four years (with a year in industry). 
+I [studied Computer Science](./university.html) at [Aberystwyth University](https://www.aber.ac.uk/en/cs/) in Wales, graduating in 2020 after four years (with a year in industry). 
 I currently work with enterprise monitoring systems, message oriented middleware, infrastructure APIs and highly available cloud services at [JP Morgan](https://www.jpmorgan.com/insights/technology). Whilst my title is Software Engineer, due to the nature of my work I could be considered an [SRE engineer](https://www.redhat.com/en/topics/devops/what-is-sre).
 
 I enjoy things that work, learning why they work and fixing things that don't work.
 
 I have professional experience in Java, JavaScript, TypeScript and Go. I've shipped code using both  React and Spring frameworks. I've also used Kafka, Grafana, Docker, InfluxDB, Cassandra, Zookeeper in both personal and professional settings.  
     
-#### Personal
+#### Personal Interests
 
 Technically speaking, I'm interested in ecotechnology, computer vision, the open/indie web, and home automation.
         
