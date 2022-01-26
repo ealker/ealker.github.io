@@ -5,16 +5,21 @@ title: Junior Software Engineering Guide
 
 Working on your craft is one of the most important things that you can do. You spend a large amount of your life at work, so you might as well be good at what you do. This page is a collection of resources that have helped me to become better at software engineering.
  
-## Articles    
+## Advice I've Recieved 
+
+
+## Resources
+
+### Articles    
 
 - [Teach Yourself Programming in 10 Years](https://norvig.com/21-days.html)
 
-## Talks / Lectures
+### Talks / Lectures
 
 - [CTO In A Box (Mark Masterson)](https://www.slideshare.net/mastermark/cto-in-a-box-51863179)
 - [The Last Lecture (Randy Pausch)](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
-## Books
+### Books
 I re-read sections of these books frequently. 
 
 - Mythical Man Month (Brooks)
@@ -26,10 +31,10 @@ I re-read sections of these books frequently.
 - Patterns of Enterprise Application Architecture (Fowler)
 - Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
 
-## Blog Roll
+### Blog Roll
 Blog rolls aren't really a thing anymore, but here is a list to get you started. I've learnt a lot from these blogs. 
 
-- [Overreacted (Dan Abramov)](https://overreacted.io): Dan work's at Meta on the React (front end JavaScript framework) team. He is an interesting guy, and I always enjoy reading his posts. 
+- [Overreacted (Dan Abramov)](https://overreacted.io): Dan works at Meta on the React (front end JavaScript framework) team. He is an interesting guy, and I always enjoy reading his posts. 
 - [Tania Rascia](https://www.taniarascia.com)
 - [Coding Horror (Jeff Atwood)](https://blog.codinghorror.com)
 - [Joel Spolsky](https://www.joelonsoftware.com)
@@ -42,3 +47,4 @@ Blog rolls aren't really a thing anymore, but here is a list to get you started.
 - [Kalzumeus (Patrick McKenzie)](https://www.kalzumeus.com/)
 - [Derek Sivers](https://sivers.org/)
 - [Professor Matt Might](http://matt.might.net/articles/)
+- [Bellard](https://bellard.org)
