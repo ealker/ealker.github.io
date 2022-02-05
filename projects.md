@@ -4,9 +4,13 @@ title: Projects
 ---
 
 ### Software
-A collection of software I've written.
+A collection of software I've written. 
 
-#### Web Apps
+- [website](https://github.com/elliotalker/ealker.github.io): this website, built on the [Jekyll static site generator](https://jekyllrb.com) with a custom theme. 
+- [bookmanager](https://github.com/elliotalker/bookmanager): an example Spring MVC based web app.
+- [scripts](https://github.com/elliotalker/scripts): all of my scripts, in various languages.
+- [dotfiles](https://github.com/elliotalker/dotfiles): all of my dotiles for macOS and various Linux distros. 
+- web apps: 
 
 <div class="container">
     <div class="box-wrapper">
@@ -21,20 +25,19 @@ A collection of software I've written.
     </div>
 </div> 
 
-<br />
+<br />  
 
-#### Scripts
+### Not Software
 
-I have various scripts on my [GitHub account](www.github.com/elliotalker).
-  
+These didn't feel like they should be blog posts, rather living documents that I update every once in a while. 
 
-### Lists
+##### Media Consumption
 
 Outside of my weekly review posts, I like to track long term trends in my media consumption. 
 
 - [Books I've Read](./projects/bookshelf.html)
 - [Movies I've Watched](./projects/movies.html)
 
-### Smarthome 
+##### Smarthome
 
-I have an interest in smarthome technology. I've setup [a page](./projects/smarthome.html) to document my progress.
+I also have an interest in smarthome technology. I've setup [a page](./projects/smarthome.html) to document my progress.
