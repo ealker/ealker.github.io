@@ -5,6 +5,7 @@ title: Elliot Alker
 
 #### Hi, I'm Elliot, a software engineer based in London. This site is my home on the web and contains a collection of my writing, projects, and photos.
 
+[More about me](/about.html)
 
 ### Recent Posts
 
