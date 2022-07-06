@@ -1,0 +1,10 @@
+---
+layout: page
+title: nav
+---
+
+<ul>
+    {% for item in site.data.navlist.pages %}
+       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+ </ul>
