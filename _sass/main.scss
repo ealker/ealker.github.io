@@ -25,7 +25,6 @@ header {
 
   h2 {
     color: green;
-    font-family: Garamond, serif;
   }  
 
   nav {
@@ -49,6 +48,8 @@ h1, h2, h3, h4 {
 
 p {
     line-height: 2;
+    font-family: "Georgia";
+    color: #555
 }
 
 strong {
@@ -70,18 +71,22 @@ a:hover {
 
 code,
 pre {
-  background: #eee;
-  border-bottom: 1px solid #d8dee9;
+  background: #282a36;
+    ::selection {
+    background: #44475a;
+  }
+
 }
 
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
+  color: #f8f8f2;
 }
 
 pre {
   padding: 1em;
-  border-left: 2px solid #69c;
+  border-radius: 4px;
 }
 
 footer {
@@ -115,7 +120,15 @@ td{
   margin-top: 5%;
 }
 
-// New CSS code for project front
+#pagetitle {
+  background-color: green;
+}
+
+#postdate {
+  color: #D3D3D3;
+}
+
+// Styling for Web Apps Page
 
 .box-wrapper {
   display: grid;

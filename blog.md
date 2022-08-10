@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: /blog
 ---
 
 {% for post in site.posts %}
@@ -8,5 +8,3 @@ title: Blog
     <li><a href="{{ post.url }}"> {{post.title }}</a> {{ post.date | date: '%B %Y' }} </li>
 </ul>
 {% endfor %}
-
-(RSS Feed)[/feed.xml]

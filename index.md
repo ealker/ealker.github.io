@@ -5,11 +5,11 @@ title: Elliot Alker
 
 ## Hello. I'm Elliot, a software engineer based in London. 
 
-### This site is my portfolio, blog, resume and digital garden.
+### What is this?
 
-[More about me and my work](/about.html)
+This site is my [portfolio](/projects), [blog](/blog), resume and [digital garden](https://maggieappleton.com/garden-history). Feel free to read [more about me and my work](/about).
 
-### Recent Posts
+### What have I been writing?
 
 {% for post in site.posts limit:3 %}
 <ul>
@@ -22,3 +22,6 @@ title: Elliot Alker
 
 ### What do I [use](/uses)?
 
+### Where should I go?
+
+Good question! Here are a few [sites worth reading](/links).

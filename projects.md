@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects 
+title: /projects 
 ---
 
 ### Software 
@@ -21,4 +21,10 @@ Outside of my weekly review posts, I like to track long term trends in my media 
 
 ### Smarthome
 
-I also have an interest in smarthome technology. I've setup [a page](./projects/smarthome.html) to document my progress.
+I also have an interest in smarthome technology. I've setup [a page](./projects/smarthome.html) to document my progress. 
+
+### Misc. Interests
+
+- [Retrocomputing](./retro)
+- [Eco/Collapse Computing](./eco-computing)
+- [Small/Indie/Old Web](./web)
