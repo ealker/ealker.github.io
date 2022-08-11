@@ -25,6 +25,6 @@ I also have an interest in smarthome technology. I've setup [a page](./projects/
 
 ### Misc. Interests
 
-- [Retrocomputing](./retro)
-- [Eco/Collapse Computing](./eco-computing)
-- [Small/Indie/Old Web](./web)
+- [Retrocomputing](./projects/retro)
+- [Eco/Collapse Computing](./projects/eco-computing)
+- [Small/Indie/Old Web](./projects/web)
