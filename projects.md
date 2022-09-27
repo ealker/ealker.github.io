@@ -9,7 +9,7 @@ title: /projects
 - [bookmanager](https://github.com/elliotalker/bookmanager): an example Spring MVC based web app.
 - [scripts](https://github.com/elliotalker/scripts): all of my scripts, in various languages.
 - [dotfiles](https://github.com/elliotalker/dotfiles): all of my dotiles for macOS and various Linux distros. 
-- [web apps](./web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
+- [web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
 
 
 ### Media Consumption
