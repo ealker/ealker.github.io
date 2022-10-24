@@ -3,7 +3,7 @@ layout: page
 title: /about
 ---
 
-### Work
+<!-- ### Work
 
 2022 - Present: Software Engineer @ JP Morgan. Working in Payment Technology organisation with Java, Go and AWS.
 
@@ -21,4 +21,26 @@ I have professional experience with Java, JavaScript, Python and Go. I've shippe
 
 ### Contact 
 
-You can find my code on [GitHub](https://github.com/ealker) and reach out to me on [LinkedIn](https://www.linkedin.com/in/elliot-alker).
+You can find my code on [GitHub](https://github.com/ealker) and reach out to me on [LinkedIn](https://www.linkedin.com/in/elliot-alker). -->
+
+### Who am I? 
+
+Hello. I'm Elliot, a software engineer living in London. 
+
+### What is this?
+
+This site is my [portfolio](/projects), [blog](/blog), resume and [digital garden](https://maggieappleton.com/garden-history). Feel free to read [more about me and my work](/about).
+
+### What am I up to right [now](/now)?
+
+### What do I [use](/uses)?
+
+### Where should you go?
+
+Good question! Here are a few [sites worth reading](/links).
+
+### Where can I find you?
+
+[Twitter (elliotalker)](),
+[GitHub (ealker)](),
+[LinkedIn (elliotalker)]()
