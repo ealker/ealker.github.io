@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /projects 
+title: Projects 
 ---
 
 ### Software 
@@ -11,20 +11,6 @@ title: /projects
 - [dotfiles](https://github.com/ealker/dotfiles): all of my dotiles for macOS and various Linux distros. 
 - [web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
 
-
-### Media Consumption
-
-Outside of my weekly review posts, I like to track long term trends in my media consumption. 
-
-- [Books I've Read](/projects/bookshelf)
-- [Movies I've Watched](/projects/movies)
-
 ### Smarthome
 
-I also have an interest in smarthome technology. I've setup [a page](/smarthome) to document my progress. 
-
-### Misc. Interests
-
-- [Retrocomputing](/projects/retro)
-- [Eco/Collapse Computing](/projects/eco-computing)
-- [Small/Indie/Old Web](/projects/web)
+I have an interest in smarthome technology. I've setup [a page &#8690;](/projects/smarthome) to document my progress. 
