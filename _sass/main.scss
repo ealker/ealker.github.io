@@ -2,14 +2,14 @@ html {
   position: relative;
   min-height: 100%;
   overflow-y:scroll;
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 body {
-    margin: 1em;
-    max-width: 50em;
     line-height: 1.5;
     font-family: sans-serif;
-    // padding: 0 1em;
+    padding: 0 1em;
     background-color: #FCF9F4;
 }
 
