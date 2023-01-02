@@ -1,16 +1,10 @@
 ---
 layout: page
-title: /now
+title: Now
 --- 
 
 
-This is my now page. 
-
-[What's a now page?](https://nownownow.com/about)
-
-It's a summary of what I'm working on in my life, and I'm what I'm planning to work on next. 
-
-You can see other people's pages [here](https://nownownow.com/).
+This is my now page. [What's a now page?](https://nownownow.com/about) It's a summary of what I'm working on in my life, and I'm what I'm planning to work on next. You can see other people's pages [here](https://nownownow.com/).
 
 ### Where am I? 
 
@@ -30,4 +24,4 @@ I've picked up an interest in the financial markets, the payments tech industry 
 
 ### What are my plans for the next year? 
 
-I'm looking to get back to making music after a 6 year hiatus. I spent a huge amount of my free time doing this as a teenager, and it's something I miss dearly.
+I'm looking to get back to making music after a 6 year hiatus. I spent a huge amount of my free time doing this as a teenager, and it's something I miss doing.

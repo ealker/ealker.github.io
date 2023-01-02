@@ -13,6 +13,7 @@ Working on your craft is one of the most important things that you can do. You s
 ### Articles    
 
 - [Teach Yourself Programming in 10 Years](https://norvig.com/21-days.html)
+- [Guide to Debugging](https://jvns.ca/blog/2022/12/21/new-zine--the-pocket-guide-to-debugging/): I've been looking for a guide like this for a long time and Julia Evans has provided a brilliant one. Follow her advice and you can't go wrong.
 
 ### Talks / Lectures
 

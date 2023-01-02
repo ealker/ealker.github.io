@@ -12,3 +12,8 @@ Hi, I'm Elliot.
     <li><a href="{{ post.url }}"> {{post.title }}</a> <i>{{ post.date | date: '%B %Y' }}</i></li>
 </ul>
 {% endfor %}
+
+## Permenant Pages
+
+- [/uses](uses)
+- [Now](now)
