@@ -33,7 +33,7 @@ header {
   }
   
   .topname {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
   }
 
   ul {
@@ -49,12 +49,11 @@ header {
 h1, h2, h3, h4 {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
 }
 
 p {
-
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-family: 'Georgia', serif;
   line-height: 2;
   color: #525050;
 }
