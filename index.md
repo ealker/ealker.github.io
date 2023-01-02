@@ -3,7 +3,7 @@ layout: default
 title: Elliot Alker
 ---
 
-Hi, I'm Elliot.
+Hello. I'm Elliot, a software engineer living and working in London. 
 
 ## Recent Posts 
 

@@ -11,6 +11,14 @@ title: Projects
 - [dotfiles](https://github.com/ealker/dotfiles): all of my dotiles for macOS and various Linux distros. 
 - [web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
 
+### Hardware
+
+Coming soon!
+
 ### Smarthome
 
-I have an interest in smarthome technology. I've setup [a page &#8690;](/projects/smarthome) to document my progress. 
+I have an interest in smarthome technology. I've setup [a page](/projects/smarthome) to document my progress. 
+
+### Writing 
+
+My [blog](/blog) contains a collection of my notes, articles, musings, rants, etc. and is an ongoing project in itself. Why do I blog? [Steve Yegge](https://sites.google.com/site/steveyegge2/you-should-write-blogs) has the answer.

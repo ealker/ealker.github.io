@@ -23,24 +23,22 @@ I have professional experience with Java, JavaScript, Python and Go. I've shippe
 
 You can find my code on [GitHub](https://github.com/ealker) and reach out to me on [LinkedIn](https://www.linkedin.com/in/elliot-alker). -->
 
-### Who am I? 
-
-Hello. I'm Elliot, a software engineer living in London. 
 
 ### What is this?
 
 This site is my [portfolio](/projects), [blog](/blog), resume and [digital garden](https://maggieappleton.com/garden-history). Feel free to read [more about me and my work](/about).
 
-### What am I up to right [now](/now)?
+### What are you up to right [now](/now)?
 
-### What do I [use](/uses)?
+If you visit the link above you can find out!
 
-### Where should you go?
+### What do you [use](/uses)?
+
+A lot of different tools. Take a look!
+
+### What should I read next?
 
 Good question! Here are a few [sites worth reading](/links).
 
 ### Where can I find you?
-
-[Twitter (elliotalker)](),
-[GitHub (ealker)](),
-[LinkedIn (elliotalker)]()
+[GitHub (ealker)](github.com/ealker) or email me: info at elliot alker dot com.
