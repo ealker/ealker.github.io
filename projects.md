@@ -22,3 +22,16 @@ I have an interest in smarthome technology. I've setup [a page](/projects/smarth
 ### Writing 
 
 My [blog](/blog) contains a collection of my notes, articles, musings, rants, etc. and is an ongoing project in itself. Why do I blog? [Steve Yegge](https://sites.google.com/site/steveyegge2/you-should-write-blogs) has the answer.
+
+### Media
+
+I like to track my media consumption. 
+
+- [Books I've Read](/projects/bookshelf)
+- [Movies I've Watched](/projects/movies)
+
+### Other Interests
+
+- [Retrocomputing](/projects/retro)
+- [Eco/Collapse Computing](/projects/eco-computing)
+- [Small/Open/Indie Web](/2021/09/11/indie-web.html)

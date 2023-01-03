@@ -17,3 +17,4 @@ Hello. I'm Elliot, a software engineer living and working in London.
 
 - [/uses](uses)
 - [Now](now)
+- [Sitemap](sitemap)
