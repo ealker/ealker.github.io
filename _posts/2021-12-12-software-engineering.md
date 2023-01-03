@@ -1,12 +1,19 @@
 ---
 layout: post
-title: Junior Software Engineering Guide
+title: Notes on Software Engineering
 ---
 
-Working on your craft is one of the most important things that you can do. You spend a large amount of your life at work, so you might as well be good at what you do. This page is a collection of resources that have helped me to become better at software engineering.
+Perfecting your craft is one of the most important things that you can do. You spend a large amount of your life at work, so you might as well be good at what you do. This page is a collection of resources that have helped me to become better at mine.
  
 ## Advice I've Recieved 
 
+- Find a mentor and learn everything that you can from them.  
+
+- Like a company needs different CEOs at different stages of the companies life, you need different mentors at different stages of your career. 
+
+- "Ship it!" or "Build. Build. Build." 
+
+- Slow down. Think about the problem you're solving. Give problems the respect that they deserve.
 
 ## Resources
 

@@ -1,7 +1,7 @@
 html {
   position: relative;
   min-height: 100%;
-  overflow-y:scroll;
+  overflow-y: scroll;
   max-width: 50em;
   margin: 0 auto;
 }
@@ -15,9 +15,9 @@ body {
 
 ul, li {
     list-style-type: none;
-    list-style-position:inside;
+    list-style-position: inside;
     text-align: left;
-    padding:0; 
+    padding: 0; 
 }
 
 header {
@@ -46,6 +46,18 @@ header {
   }
 }
 
+.post-content { 
+  p {
+    font-family: serif;
+  }
+  
+  li {
+    list-style: disc;
+    margin-left: 1em;
+    font-family: serif;
+  }
+}
+
 h1, h2, h3, h4 {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -53,7 +65,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font-family: 'Georgia', serif;
+  font-family: sans-serif;
   line-height: 2;
   color: #525050;
 }
@@ -137,10 +149,7 @@ td{
 #postdate {
   color: green;
   text-align: center; 
-}
-
-#why {
-  color: #D3D3D3;
+  font-family: sans-serif;
 }
 
 // Styling for Web Apps Page

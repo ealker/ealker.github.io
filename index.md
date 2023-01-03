@@ -9,7 +9,7 @@ Hello. I'm Elliot, a software engineer living and working in London.
 
 {% for post in site.posts limit:3 %}
 <ul>
-    <li><a href="{{ post.url }}"> {{post.title }}</a> <i>{{ post.date | date: '%B %Y' }}</i></li>
+    <li>{{ post.date | date: '%B %Y' }} - <a href="{{ post.url }}"> {{post.title }}</a></li>
 </ul>
 {% endfor %}
 
