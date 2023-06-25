@@ -20,7 +20,7 @@ I'm reading a lot more than I used to. You can check out what I've read this yea
 
 I've been exploring more of London, having moved hear just about a year ago. I've also been to Norway and Greece in the past year with a few visits to Wales interspersed between the two "big" trips.
 
-I've picked up an interest in the financial markets, the payments tech industry and eco focused technology. I've also discovered a fascination with Georgain design, architecture and interiors.    
+I've picked up an interest in the financial markets, the payments tech industry and eco focused technology. I've also discovered a fascination with Georgian design, architecture and interiors.    
 
 ### What are my plans for the next year? 
 

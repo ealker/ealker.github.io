@@ -23,6 +23,7 @@ I have professional experience with Java, JavaScript, Python and Go. I've shippe
 
 You can find my code on [GitHub](https://github.com/ealker) and reach out to me on [LinkedIn](https://www.linkedin.com/in/elliot-alker). -->
 
+I'm interested in Software, systems, Georgian architecture, Baroque music, 
 
 ### What is this?
 
