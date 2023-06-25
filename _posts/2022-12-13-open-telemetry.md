@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Open Telemetry Learnings 
+title: Notes on Open Telemetry 
 ---

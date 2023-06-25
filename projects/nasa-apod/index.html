@@ -28,36 +28,61 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>NASA Astronomy Picture of The Day Search</h1>
 
-        <div class="container-fluid">
-            <div class="row">
-             <div class="col-md-6 col-sm-6 col-xs-12">
-          
-              <!-- Form code begins -->
-              <form id="date-form">
-                <div class="form-group"> <!-- Date input -->
-                  <label class="control-label" for="date">Date</label>
-                  <input class="form-control" id="date" name="date" placeholder="YYYY/MM/DD" type="text"/>
-                </div>
-                <div class="form-group"> <!-- Submit button -->
-                  <button class="btn btn-primary " name="submit" type="submit">Search</button>
-                </div>
-               </form>
-               <!-- Form code ends --> 
-              </div>
-            </div>    
-           </div>
-
-        <h4 id="name"></h4>
-        <h4 id="date-taken"></h4>
-        <img id="picture" src="" alt="APOD Image" />
-        <h5 id="copyright"></h5>
-        <h4 id="description"></h4>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../web-apps">Web Apps</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Nasa APOD</a></li>
+      </ul>
     </div>
+  </nav>
 
+  
+  <div class="container">
+    <h1>NASA APOD Search</h1>
+  </div>
+    
 
+  <div class="container">
+    <form id="date-form">
+      <label for="date-picker">Pick a date</label>
+      <div class="form-group">
+        <input type="date" id="date-picker">
+      </div>
+      <button class="btn btn-primary " id="search-button">Search</button>
+    </form>
+  </div>    
+
+  <br />
+
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h4 id="name">Name:</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" id="image-container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img class="img-responsive" id="picture" src="" alt=" APOD Image" />
+        <h5 id="copyright">Copyright: </h5>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h4 id="date-taken">Date Taken: </h4>
+        <h4 id="description">Description:</h4>
+      </div>
+    </div>
+  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
