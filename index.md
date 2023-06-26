@@ -9,9 +9,9 @@ This site is my **[blog](/blog)** and [digital garden](https://maggieappleton.co
 
 I've worked on a few [projects](/projects). 
 
-You can see what I've been up to recently on my **[now](now)** page, see what I use on my **[/uses](uses)** page, and view all this site's pages on the **[sitemap](sitemap)**. 
+You can see what I've been up to on my **[now](now)** page, see what I use on my **[/uses](uses)** page, and view all this site's pages on the **[sitemap](sitemap)**. 
 
-Here's what I've wrote recently:
+Here's some posts that I've recently published:
 
 {% for post in site.posts limit:3 %}
 <ul>
