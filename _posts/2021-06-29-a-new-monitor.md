@@ -3,8 +3,6 @@ layout: post
 title: "A New Monitor" 
 ---
 
-#### Boring Context 
-
 My employer recently subsidized a new monitor purchase for my work from home computer setup.
 Initially I was unsure about what specs to look for in a new monitor. Now, I know most of the technical terms, I've seen friends' 240Hz IPS panels, 32" VA panels and all sorts of monitors in between, however up until this point I've used a variety of hand-me-down monitors from friends and relatives. The only new monitors I've purchased have been a Dell P2419H, which was also subsidised by my employer in 2020, and a 21" Samsung SyncMaster in ~2011. (I was also gifted a Dell UltraSharp U2719D which broke.)  
 
