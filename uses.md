@@ -13,7 +13,7 @@ It is my remix of Wes Bos' [/uses project](https://wesbos.com/uses), Paul Stamat
 
 I use a 2016 MacBook Pro and a Dell OptiPlex 3070. 
 
-### Homelab 
+### [Homelab](2022/10/24/self-hosting)
 
 I run all of my self hosted services on a Raspberry Pi 3B and a HP EliteDesk G2 800 Mini. 
 
