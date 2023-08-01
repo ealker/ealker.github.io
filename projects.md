@@ -5,11 +5,12 @@ title: Projects
 
 ### Software 
 
-- [website](https://github.com/elliotalker/ealker.github.io): this website, [built](/projects/colophon) on the [Jekyll static site generator](https://jekyllrb.com) with a custom theme. 
+- [personal website](https://github.com/elliotalker/ealker.github.io): this website, [built](/projects/colophon) on the [Jekyll static site generator](https://jekyllrb.com) with a custom theme. 
 - [bookmanager](https://github.com/ealker/bookmanager): an example Spring MVC based web app.
 - [scripts](https://github.com/ealker/scripts): all of my scripts, in various languages.
 - [dotfiles](https://github.com/ealker/dotfiles): all of my dotiles for macOS and various Linux distros. 
 - [web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
+- [speak out scotland](https://speakoutscotland.org/): website as part of Force For Good for a charity in Scotland.
 
 ### Smarthome
 
@@ -23,12 +24,4 @@ My [blog](/blog) contains a collection of my notes, articles, musings, rants, et
 
 I like to track my media consumption; maybe you're interested in [the books I've read](/projects/bookshelf) and [the movies I've watched](/projects/movies)?
 
-I'm also researching how to do more (or the same) with less...
-
-- [Retro (Vintage) Computing](/projects/retro)
-- [Eco/Collapse Computing](/projects/eco-computing)
-
-I'm a fan of open standards!
-
-- [The Small/Open/Indie Web](/projects/web)
-- [Plain Text](/projects/plaintext)
+I also enjoy tinkering with [old computers](/projects/retro) and reading about [eco computing](/projects/eco-computing). To that end I support open standards, like [plain Text](/projects/plaintext), and believe that [the sall/open/indie Web](/projects/web) is making a comeback.

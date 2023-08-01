@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /uses
+title: Uses
 ---
 
 This is my [uses](https://uses.tech/) page.
