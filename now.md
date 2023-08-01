@@ -12,13 +12,13 @@ London, UK
 
 ### What am I doing? 
 
-I'm working on Payments technology at JP Morgan. Before returning to work with some of my former team in Payments, I spent two and a half years working on SRE monitoring tools for the bank. My current work is focused on authentication, identity and security, but I think that's about all I can say. 
+I'm working on payments technology at an investment bank. I've also worked on observability tools for SRE teams, message oriented middleware and Java libraries. My current work is focused on authentication, identity and security. 
 
 ### What are my interests? 
 
 I'm reading a lot more than I used to. You can check out what I've read this year if you go to [my blog](/blog).
 
-I've been exploring more of London, having moved hear just about a year ago. I've also been to Norway and Greece in the past year with a few visits to Wales interspersed between the two "big" trips.
+I've been exploring more of London, having moved hear just about a year ago. I've also been to Norway, Greece, Czechia and Wales.
 
 I've picked up an interest in the financial markets, the payments tech industry and eco focused technology. I've also discovered a fascination with Georgian design, architecture and interiors.    
 
