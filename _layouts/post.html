@@ -14,7 +14,7 @@ layout: default
     <body>
         <div class="post-content">
         <h1 id="posttitle">{{ page.title }}</h1>
-        <p id="postdate">Posted on {{ page.date | date: "%d %B %Y" }}</p>
+        <p id="postdate">{{ page.date | date: "%d %B %Y" }}</p>
         {{ content }}
         </div>
     </body>
