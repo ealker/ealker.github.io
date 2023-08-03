@@ -9,7 +9,7 @@ html {
 body {
     line-height: 1.5;
     padding: 0 1em;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
 }
 
 ul, li {
@@ -17,6 +17,7 @@ ul, li {
     list-style-position: inside;
     text-align: left;
     padding: 0; 
+    color: #525050;
 }
 
 header {
@@ -52,9 +53,7 @@ header nav {
       margin-right: 1em; }
       header ul li:last-child {
         margin-right: 0; }
-      header ul li a {
-        color: #222;
-        text-decoration: none; }
+      header ul li a {}
   @media (max-width: 45rem) {
     header nav {
       width: 100%; }
@@ -63,9 +62,8 @@ header nav {
       header ul li {
         padding-left: 0;
         margin-right: 0; }
-        header ul li a {
-          color: #0000FF;
-          text-decoration: underline; } }
+        header ul li a {} 
+          }
 .headline {
   text-align: center;
   letter-spacing: 1px;
@@ -87,24 +85,24 @@ header nav {
 
 .post-content { 
   p {
-    font-family: 'Georgia', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
   }
   
   li {
     list-style: disc;
     margin-left: 1em;
-    font-family: serif;
+    color: #525050;
   }
 }
 
 h1, h2, h3, h4 {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
   line-height: 2;
   color: #525050;
 }
@@ -188,7 +186,6 @@ td{
 #postdate {
   color: green;
   text-align: center; 
-  font-family: sans-serif;
 }
 
 // Styling for Web Apps Page
