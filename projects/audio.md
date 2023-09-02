@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Audio
+title:  "Audio"
 ---
 
 There are three factors when considering audio quality from a digital perspective: 
