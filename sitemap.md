@@ -3,7 +3,7 @@ layout: page
 title: Sitemap
 ---
 
-All of the sites permalinks. 
+Presenting all of the permalinks...
 
 {% for page in site.pages %}
 

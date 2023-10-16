@@ -11,3 +11,4 @@ The [no css club](https://nocss.club/) is be too puritan for my tastes, but you 
 ## Plain Text Resources 
 
 - [SJ Mulder's list of text only sites](https://sjmulder.nl/en/textonly.html)
+- [This Page is Designed To Last](https://jeffhuang.com/designed_to_last/)

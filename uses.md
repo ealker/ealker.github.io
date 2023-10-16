@@ -16,7 +16,7 @@ I use a 2016 15" MacBook Pro, 2013 11" MacBook Air and a Dell OptiPlex 3070.
 
 I run all of my self hosted services on a Raspberry Pi 3B and a HP EliteDesk G2 800 Mini. 
 
-### Audio 
+### [Audio](/projects/audio)
 
 Pirate Audio released an awesome DAC HAT for the Pi that I use with a Raspberry Pi 2B to send high quality line out audio to my 70s/80s scavenged HiFi system.
 

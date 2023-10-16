@@ -9,7 +9,7 @@ title: Blog
 <h2> {{ year.name }} </h2>
   <ul> 
     {% for post in year.items %}
-        <li> {{ post.date | date: '%d %B %Y' }} - <a href="{{ post.url }}"> {{post.title }}</a> </li>
+        <li> {{ post.date | date: '%d %B %Y' }} - <a href="{{ post.url }}"> {{ post.title }}</a> </li>
     {% endfor %}
   </ul>
 {% endfor %}
