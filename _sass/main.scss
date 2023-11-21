@@ -7,14 +7,14 @@ html {
   background: #FFFEF2;
 }
 
-body {
-    line-height: 1.5;
+body {    
     padding: 0 1em;
     font-family: 'Georgia', Serif;
 }
 
 #bloglist {
   ul {
+  line-height: 3;
   list-style: none;
   }
 }
@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
 
 p {
   font-family: 'Georgia', Serif;
-  line-height: 1.6;
+  line-height: 2;
   color: #525050;
 }
 
