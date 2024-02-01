@@ -6,10 +6,15 @@ title: Projects
 ### Software 
 
 - [personal website](https://github.com/elliotalker/ealker.github.io): this website, [built](/projects/colophon) on the [Jekyll static site generator](https://jekyllrb.com) with a custom theme. 
+
 - [bookmanager](https://github.com/ealker/bookmanager): an example Spring based REST API.
+
 - [scripts](https://github.com/ealker/scripts): all of my scripts, in various languages.
-- [dotfiles](https://github.com/ealker/dotfiles): all of my dotiles for macOS and various Linux distros. 
-- [small web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.) 
+
+- [dotfiles](https://github.com/ealker/dotfiles): all of my dotiles for macOS and various Linux distros.
+
+- [small web apps](/projects/web-apps.html): simple web apps (vanilla JS, JQuery, etc.)
+ 
 - [speak out scotland](https://speakoutscotland.org/): website as part of Force For Good for a charity in Scotland.
 
 ### Writing 
