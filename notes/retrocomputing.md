@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retro Computing
+title: Retrocomputing
 ---
 
 - Vintage Apple

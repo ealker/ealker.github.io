@@ -21,6 +21,4 @@ title: Projects
 
 - [Blog](/blog): my blog contains a collection of my notes, articles, musings, rants, etc. and is an ongoing project. Why do I blog? [Steve Yegge](https://sites.google.com/site/steveyegge2/you-should-write-blogs) has the answer.
 
-- Notebook: These are my evergreen notes on setting up a [self hosted smart-home](/projects/smarthome), my thoughts about high quality [audio](/projects/audio) and tracking my media consumption, amongst other interests; maybe you're interested in [the books I've read](/projects/bookshelf) or [the movies I've watched](/projects/movies)?
-
-I also enjoy tinkering with [old computers](/projects/retro) and reading about [eco computing](/projects/eco-computing). To that end I support open standards, like [plain text](/projects/plaintext), and believe that [the small/open/indie web](/projects/web) is making a comeback.
+- [Notes](/notes): These are my evergreen notes on all sorts of topics, from self-hosted smart homes to a list of books that I've read. 

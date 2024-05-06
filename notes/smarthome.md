@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Smarthome 
+title: Self Hosted Smarthome 
 ---
 
 This page contains all information related to my smart home research and implementation. 

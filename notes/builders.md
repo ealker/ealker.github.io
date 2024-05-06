@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Builders and Makers
+title: Builders
 ---
-
-Movers and shakers...
 
 ## Design
 

@@ -14,9 +14,14 @@ body {
 
 #bloglist {
   ul {
-  line-height: 3;
+  line-height: 2.5;
   list-style: none;
   }
+	
+	h2 {
+		margin: 0;
+		padding: 0;
+	}
 }
 
 ul, li {
@@ -132,11 +137,14 @@ header a:hover {
   }
 }
 
-h1, h2, h3, h4 {
-  margin-top: 1em;
+#top-name {
   font-weight: normal;
-  
-  font-family: 'Georgia', Serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Serif;
+	font-weight: normal;
+	padding-top: 1.5em;
 }
 
 p {
@@ -213,12 +221,15 @@ td {
 #pagetitle {
   font-size: 2em;
   font-weight: normal;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 #post-title {
-  font-weight: normal;
   margin-bottom: 0;
   padding-bottom: 0;
+	padding-top: 0;
+
 }
 
 #post-date {

@@ -20,3 +20,6 @@ For CD quality that would be:
 There are two standards, AirPlay 1 and AirPlay 2. AirPlay 1 is based off of AirTunes from 2004. AirTunes and AirPlay 1 allows multi-room streaming from iTunes but not from iOS (and iOS derivatives). AirPlay 2 allows for multi-room streaming from iOS devices.
 
 ## File Formats 
+
+ALAC 
+FLAC

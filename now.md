@@ -4,7 +4,7 @@ title: Now
 --- 
 Updated April 2024.
 
-This is my now page. [What's a now page?](https://nownownow.com/about) It's a summary of what I'm working on in my life, and I'm what I'm planning to work on next. You can see other people's pages [here](https://nownownow.com/).
+This is my now page. [What's a now page? &#129109;](https://nownownow.com/about) It's a summary of what I'm working on in my life, and I'm what I'm planning to work on next. You can see other people's pages [here](https://nownownow.com/).
 
 ## 2024 
 
