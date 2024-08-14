@@ -93,8 +93,6 @@ header a:hover {
     padding-left: 0;
     margin-right: 0; 
   }
-  
-  header ul li a {} 
 }
 
 .headline {
@@ -134,6 +132,7 @@ header a:hover {
     list-style: disc;
     margin-left: 1em;
     color: #525050;
+    display: inline-block;
   }
 }
 

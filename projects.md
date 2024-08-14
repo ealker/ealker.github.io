@@ -19,6 +19,6 @@ title: Projects
 
 ### Writing 
 
-- [Blog](/blog): my blog contains a collection of my notes, articles, musings, rants, etc. and is an ongoing project. Why do I blog? [Steve Yegge](https://sites.google.com/site/steveyegge2/you-should-write-blogs) has the answer.
+- [Blog](/blog): my blog contains a collection of articles, thoughts, rants, etc. and is an ongoing project. Why do I blog? [Steve Yegge](https://sites.google.com/site/steveyegge2/you-should-write-blogs) has the answer.
 
-- [Notes](/notes): These are my evergreen notes on all sorts of topics, from self-hosted smart homes to a list of books that I've read. 
+- [Notes](/notes): These are my evergreen notes on all sorts of topics, from self-hosted smart homes to lists of movies I've watched and books that I've read. 
