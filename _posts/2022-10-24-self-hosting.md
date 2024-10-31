@@ -9,7 +9,7 @@ Let's start with the hardware, I run a second hand HP EliteDesk G2 800 Mini cont
 
 All my services run on docker, and I backup docker compose files for easier redeployment were something to go wrong after bringing a system back online. The Raspberry Pi runs the following services:
 
-- Grafana
+- Grafana 
 - Prometheus for metrics
 - [Home Assisstant](/projects/smarthome)
 - Pihole

@@ -134,8 +134,9 @@ header a:hover {
   li {
     list-style: disc;
     margin-left: 1em;
+    padding-bottom: 1em;
     color: #525050;
-    display: inline-block;
+    display: list-item;
   }
 }
 
