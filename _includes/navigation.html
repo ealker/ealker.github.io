@@ -1,0 +1,10 @@
+<header>
+  <h1 id="top-name"><a href="/">Elliot Alker</a></h1>
+  <nav>
+    <ul>
+      {% for item in site.data.navigation %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

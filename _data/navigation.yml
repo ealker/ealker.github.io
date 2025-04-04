@@ -1,0 +1,9 @@
+# Main navigation links
+- name: ABOUT
+  url: /about
+- name: BLOG
+  url: /blog
+- name: NOTES
+  url: /notes
+- name: PROJECTS
+  url: /projects

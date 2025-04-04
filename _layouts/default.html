@@ -1,34 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-        <title>{{ page.title }}</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-        <!-- Page Views -->
-        <script data-goatcounter="https://eja.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    </head>
-
-    <body>
-        
-        <!-- Navigation -->
-        <header>
-        <h1 id="top-name"><a href="/">Elliot Alker</a></h1>
-        <nav>
-                <ul>
-                    <li><a href="/about">ABOUT</a></li>
-                    <li><a href="/blog">BLOG</a></li>
-                    <li><a href="/notes">NOTES</a></li>
-                    <li><a href="/projects">PROJECTS</a></li>
-                </ul>
-        </nav>
-        </header>
-        
-        <main>
-        {{ content }}
-        </main>
-
-    </body>
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    
+    <main>
+      {{ content }}
+    </main>
+    
+    {% include footer.html %}
+  </body>
 </html>

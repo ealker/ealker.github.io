@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="tag-page">
+  <h1 class="tag-title">Tag: "{{ page.tag }}"</h1>
+  <div class="post-list">
+    {% assign filtered_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+    {% for post in filtered_posts %}
+      <article class="post-item">
+        <h1>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h1>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %d, %Y" }}
+          </time>
+        </div>
+        {% if post.description %}
+          <p class="post-description">{{ post.description }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</div>

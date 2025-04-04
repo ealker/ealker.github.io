@@ -337,3 +337,52 @@ img {
 .project-graphics {
   background: linear-gradient(90deg, #FF8000 0%, #FFFF00 100%);
 }
+
+
+/* Tag styling */
+.post-tags {
+  margin: 1.5rem 0;
+}
+
+.tags-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.tag-link {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.25rem 0.5rem 0;
+  font-size: 0.85rem;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.tag-link:hover {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+
+/* Tag cloud styling */
+.tag-cloud {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-count {
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Tag page styling */
+.tag-title {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
