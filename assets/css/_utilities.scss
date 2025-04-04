@@ -1,0 +1,209 @@
+// Utility classes for common design patterns
+
+// Text utilities
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-light {
+  color: $text-light;
+}
+
+.text-sm {
+  font-size: $font-size-sm;
+}
+
+.text-lg {
+  font-size: $font-size-lg;
+}
+
+// Spacing utilities
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: $small-spacing; }
+.mt-2 { margin-top: $base-spacing; }
+.mt-3 { margin-top: $large-spacing; }
+.mt-4 { margin-top: $xlarge-spacing; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: $small-spacing; }
+.mb-2 { margin-bottom: $base-spacing; }
+.mb-3 { margin-bottom: $large-spacing; }
+.mb-4 { margin-bottom: $xlarge-spacing; }
+
+.py-1 { padding-top: $small-spacing; padding-bottom: $small-spacing; }
+.py-2 { padding-top: $base-spacing; padding-bottom: $base-spacing; }
+.py-3 { padding-top: $large-spacing; padding-bottom: $large-spacing; }
+
+.px-1 { padding-left: $small-spacing; padding-right: $small-spacing; }
+.px-2 { padding-left: $base-spacing; padding-right: $base-spacing; }
+.px-3 { padding-left: $large-spacing; padding-right: $large-spacing; }
+
+// Display utilities
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: $small-spacing;
+}
+
+.gap-2 {
+  gap: $base-spacing;
+}
+
+// Border utilities
+.border-top {
+  border-top: 1px solid $light-gray;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $light-gray;
+}
+
+.rounded {
+  border-radius: $border-radius;
+}
+
+// Background utilities
+.bg-light {
+  background-color: $light-gray;
+}
+
+.bg-subtle {
+  background-color: $subtle-hover;
+}
+
+// Visually hidden (for screen readers)
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Responsive utilities
+.hide-mobile {
+  @media (max-width: $mobile-breakpoint) {
+    display: none !important;
+  }
+}
+
+.show-mobile {
+  display: none !important;
+  @media (max-width: $mobile-breakpoint) {
+    display: block !important;
+  }
+}
+
+// Image utilities
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: $border-radius;
+}
+
+.img-shadow {
+  box-shadow: $card-shadow;
+}
+
+// Card utilities
+.card {
+  padding: $base-spacing;
+  border-radius: $border-radius;
+  background-color: white;
+  box-shadow: $card-shadow;
+  margin-bottom: $base-spacing;
+}
+
+// Animation utilities
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.hover-lift {
+  transition: $transition-quick;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.standard-button {
+  display: inline-block;
+  padding: $small-spacing $base-spacing;
+  background-color: white;
+  color: $text-dark;
+  border: 1px solid $medium-gray;
+  border-radius: $border-radius;
+  font-family: $primary-font;
+  font-size: $font-size-sm;
+  transition: $transition-quick;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: relative;
+    
+  &:hover {
+    background-color: $subtle-hover;
+    border-color: $border-color;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+}
+
+.back-to-top-button {  
+    display: none; // hidden until scroll
+    opacity: 0.85;
+    transition: opacity 1s ease;
+
+    &:hover {
+      opacity: 1;
+      transform: translateY(-1px);
+    }
+	
+  	&::before {
+      content: "↑ ";
+      display: inline-block;
+  }
+}

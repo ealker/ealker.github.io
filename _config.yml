@@ -1,3 +1,10 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Elliot Alker" # the name of your site, e.g. ACME Corp.
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+ 
+plugins:
+  - jekyll-sitemap

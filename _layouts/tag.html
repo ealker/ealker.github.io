@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
-<div class="tag-page">
-  <h1 class="tag-title">Tag: "{{ page.tag }}"</h1>
-  <div class="post-list">
-    {% assign filtered_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
-    {% for post in filtered_posts %}
-      <article class="post-item">
-        <h1>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h1>
-        <div class="post-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%B %d, %Y" }}
-          </time>
-        </div>
+<h2 class="tag-title">
+  Everything tagged with "{{ page.tag }}"
+</h2>
+
+<div class="tag-posts-list" id="bloglist">
+  <ul>
+    {% for post in site.tags[page.tag] %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
+        
         {% if post.description %}
-          <p class="post-description">{{ post.description }}</p>
+          <p class="post-excerpt">{{ post.description }}</p>
         {% endif %}
-      </article>
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </div>
+
+<div class="button-area">
+  <a href="/tags" class="standard-button back-to-all-tags-button">All Tags</a>
+</div>
+

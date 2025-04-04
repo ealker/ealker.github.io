@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Notes on Self Hosting
+tags: [test]
 ---
 
 This past year I've started self hosting some services on a small home server. A lot of people have complex, expensive and rather overwhelming homelabs but my lone server setup falls on the cheaper and simpler end of the spectrum. 

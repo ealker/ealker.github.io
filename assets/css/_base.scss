@@ -1,0 +1,239 @@
+// Base styles
+html {
+  position: relative;
+  min-height: 100vh;
+  overflow-y: scroll;
+  max-width: $content-width;
+  margin: 0 auto;
+  background: $background-color;
+  scroll-behavior: smooth;
+}
+
+body {    
+  padding: 0 $base-spacing;
+  font-family: $primary-font;
+  line-height: $line-height-relaxed;
+  color: $text-color;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  font-weight: normal;
+  line-height: $line-height-tight;
+  color: $text-dark;
+  margin-bottom: $base-spacing;
+}
+
+h1 {
+  font-size: $font-size-xxl;
+  padding-top: $large-spacing;
+}
+
+h2 {
+  font-size: $font-size-xl;
+  padding-top: $base-spacing;
+}
+
+h3 {
+  font-size: $font-size-lg;
+  padding-top: $base-spacing;
+}
+
+h4 {
+  font-size: $font-size-md;
+  padding-top: $small-spacing;
+}
+
+h5, h6 {
+  font-size: $font-size-base;
+  padding-top: $small-spacing;
+}
+
+p {
+  font-family: $primary-font;
+  line-height: $line-height-relaxed;
+  color: $text-color;
+  margin-bottom: $base-spacing;
+}
+
+// Responsive typography adjustments
+@media (max-width: $mobile-breakpoint) {
+  body {
+    line-height: $line-height-mobile;
+  }
+  
+  h1 {
+    font-size: $font-size-xl;
+  }
+  
+  h2 {
+    font-size: $font-size-lg;
+  }
+  
+  h3 {
+    font-size: $font-size-md;
+  }
+}
+
+strong {
+  color: $text-dark;
+}
+
+// Links
+a {
+  text-decoration: none;   
+  color: $link-color;
+  transition: $transition-quick;
+ 
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline; 
+  }
+  
+  &[href^="http"]:not([href*="elliotalker.com"])::after {
+    content: "⇗";
+    font-size: $font-size-base;
+	color: inherit;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-left: $no-spacing;
+  margin-bottom: $base-spacing;
+  padding-left: $no-spacing;
+}
+
+li {
+  margin-bottom: $small-spacing;
+  color: $text-color;
+}
+
+// Code blocks
+code,
+pre {
+  background: #282a36;
+  font-family: $mono-font;
+  font-size: $font-size-sm;
+  border-radius: $border-radius;
+  
+  &::selection {
+    background: #44475a;
+  }
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  color: #f8f8f2;
+}
+
+pre {
+  padding: $base-spacing;
+  margin-bottom: $large-spacing;
+  overflow-x: auto;
+  
+  code {
+    padding: 0;
+    background: transparent;
+  }
+}
+
+// Images
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: $large-spacing auto;
+  
+  @media (min-width: $mobile-breakpoint) {
+    max-width: 80%;
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: $large-spacing;
+  border: 1px solid $border-color;
+}
+
+th {
+  padding: $small-spacing;
+  text-align: left;
+  border: 1px solid $border-color;
+  background-color: $light-gray;
+  font-family: $ui-font;
+  font-size: $font-size-sm;
+  font-weight: 600;
+}
+
+td {
+  padding: $small-spacing;
+  border: 1px solid $border-color;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $blockquote-border; 
+  padding: $small-spacing $base-spacing;
+  margin: $base-spacing 0 $large-spacing;
+  background-color: rgba(0, 0, 0, 0.02);
+  
+  p {
+    margin-bottom: $small-spacing;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Layout elements
+main {
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $medium-gray;
+  margin: $large-spacing 0;
+}
+
+// Print styles
+@media print {
+  html {
+    background: white;
+  }
+  
+  body {
+    color: black;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+// Helper classes
+.row {
+  margin-top: 5%;
+}
+
+.intro {
+  margin-top: 5%;
+}
+
+.head {
+  margin-bottom: $large-spacing;
+}

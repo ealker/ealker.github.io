@@ -1,0 +1,188 @@
+// Header layout
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  padding-top: $base-spacing;
+  padding-bottom: $base-spacing;
+  border-bottom: 1px solid black;
+  margin-bottom: $base-spacing;
+  width: 100%;
+  line-height: 1.2;
+  gap: 2em;
+  max-width: inherit; /* Match the parent container width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  
+  h1 {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0; 
+    font-family: $heading-font;
+    white-space: nowrap; /* Prevent line break in name */
+    font-size: $font-size-xxl;
+    color: $link-color; /* Changed to link color (green from variables) */
+    letter-spacing: 0.02em; /* Subtle letter spacing for elegance */
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 0.5em; /* Fine-tune vertical alignment */
+    margin-left: auto; /* Push nav all the way to the right */
+    flex: 0 1 auto; /* Don't grow but allow shrinking */
+    overflow: hidden; /* Prevent overflow beyond container */
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      
+      li {
+        display: inline-block;
+        font-family: $primary-font;
+        font-size: $font-size-sm;
+        font-weight: 500;
+        padding: 0;
+        margin-right: $small-spacing; /* Reduced from $base-spacing */
+        margin-left: 0;
+        list-style-position: outside;
+        letter-spacing: 0.03em;
+        
+        &:last-child {
+          margin-right: 0;
+        }
+        
+        a {
+          color: $text-light;
+          text-decoration: none;
+          padding: $small-spacing;
+          border-radius: $border-radius;
+          transition: $transition-quick;
+          background-color: transparent;
+          white-space: nowrap; /* Prevent text wrapping */
+          display: block;
+          
+          &:hover {
+            color: $link-color;
+            background-color: $subtle-hover;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive header adjustments
+@media (max-width: $mobile-breakpoint) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+	gap: 0;
+    
+    
+    nav {
+      width: 100%;
+	  margin-left: 0;
+      justify-content: center;
+    }
+    
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      
+      li {
+        margin-right: $base-spacing;
+        margin-bottom: $small-spacing;
+        
+        a {
+          padding: $small-spacing;
+          display: block;
+          font-family: $primary-font;
+        }
+      }
+    }
+  }
+}
+
+// Headline
+.headline {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: $xlarge-spacing 0;
+  
+  .space {
+    display: none;
+  }
+}
+
+@media (max-width: $tablet-breakpoint) {
+  .headline {
+    text-align: left;
+    
+    br {
+      display: none;
+    }
+    
+    .space {
+      display: inline;
+    }
+  }
+}
+
+// Home content
+#homecontent {
+  text-align: justify;
+  
+  @media (max-width: $mobile-breakpoint) {
+    text-align: left; // Better readability on mobile
+  }
+}
+
+// Other layout elements
+#top-name {
+  font-weight: normal;
+  
+  a {
+    color: inherit;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+#pagetitle {
+  font-size: $font-size-xxl;
+  font-weight: normal;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: $base-spacing;
+}
+
+// Footer
+footer {
+  padding: $large-spacing 0;
+  border-top: 1px solid $light-gray;
+  margin-top: $xlarge-spacing;
+  font-family: $ui-font;
+  font-size: $font-size-sm;
+  color: $text-light;
+  text-align: center;
+}
+
+// Container for consistent width
+.container {
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $base-spacing;
+}
+
+.button-area {
+  margin: $xlarge-spacing 0;
+  text-align: center;
+}

@@ -1,3 +1,20 @@
 ---
 ---
-@import "main";
+
+// Import variables first (always at the top)
+@import "variables";
+
+// Then base styles
+@import "base";
+
+// Layout components
+@import "layout";
+
+// Component styles
+@import "posts";
+@import "tags";
+@import "projects";
+@import "forms";
+
+// Utilities (always at the end so they can override other styles)
+@import "utilities";

@@ -1,0 +1,54 @@
+// Color palette
+$background-color: #FFFEF2;
+$text-color: #525050;
+$text-dark: #333;
+$text-light: #767676;
+$link-color: #2e7d32;  // More refined green
+$link-hover-color: #1b5e20;  // Darker green for hover
+$border-color: #000000;
+$light-gray: #f0f0f0;
+$medium-gray: #e0e0e0;
+$blockquote-border: #bbbbbb;  // Slightly darker for better contrast
+$subtle-hover: rgba(0, 0, 0, 0.02);
+
+// Typography
+$primary-font: 'Palatino', serif;
+$heading-font: 'Georgia' serif;
+$ui-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+$mono-font: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+$date-font: 'Times New Roman', serif;
+
+// Type scale (1.25 ratio)
+$font-size-xs: 0.8rem;
+$font-size-sm: 0.9rem;
+$font-size-base: 1rem;
+$font-size-md: 1.25rem;
+$font-size-lg: 1.563rem;
+$font-size-xl: 1.953rem;
+$font-size-xxl: 2.441rem;
+
+// Line heights
+$line-height-tight: 1.3;
+$line-height-base: 1.5;
+$line-height-relaxed: 2;
+$line-height-mobile: 2.2;
+
+// Spacing
+$base-spacing: 1em;
+$no-spacing: 0em;
+$small-spacing: 0.5em;
+$large-spacing: 2em;
+$xlarge-spacing: 3em;
+
+// Breakpoints
+$mobile-breakpoint: 45rem;
+$tablet-breakpoint: 70rem;
+
+// Other
+$border-radius: 4px;
+$card-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+$transition-standard: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition-quick: all 0.2s ease-in-out;
+
+// Optimal reading width
+$content-width: 38em;  // Approximately 65-75 characters
