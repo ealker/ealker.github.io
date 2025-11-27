@@ -4,4 +4,43 @@ layout: default
 
 <div id="homecontent">
 {{ content }}
-<div>
+
+<hr style="margin: 3em 0; border: 0; height: 1px; background-color: #e0e0e0;">
+
+<h2 style="margin-bottom: 1.5em;">Recent Activity</h2>
+
+{% assign recent_posts = site.posts | limit: 3 %}
+{% if recent_posts.size > 0 %}
+<h3 style="font-size: 1.25rem; margin-bottom: 1em;">Latest Posts</h3>
+<ul style="list-style: none; padding-left: 0; margin-bottom: 2em;">
+  {% for post in recent_posts %}
+  <li style="margin-bottom: 1em;">
+    <span style="color: #767676; font-size: 0.9rem; font-family: 'Times New Roman', serif; font-style: italic;">{{ post.date | date: "%d %B %Y" }}</span>
+    <br>
+    <a href="{{ post.url }}" style="font-weight: 500;">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% assign recent_links = site.data.links | sort: "date" | reverse | limit: 3 %}
+{% if recent_links.size > 0 %}
+<h3 style="font-size: 1.25rem; margin-bottom: 1em;">Recent Links</h3>
+<ul style="list-style: none; padding-left: 0; margin-bottom: 2em;">
+  {% for link in recent_links %}
+  <li style="margin-bottom: 1em;">
+    <span style="color: #767676; font-size: 0.9rem; font-family: 'Times New Roman', serif; font-style: italic;">{{ link.date | date: "%d %B %Y" }}</span>
+    <br>
+    <a href="{{ link.url }}" target="_blank" rel="noopener" style="font-weight: 500;">{{ link.title }}</a>
+    {% if link.tags %}
+      {% for tag in link.tags %}
+        <a href="/tags/{{ tag | slugify }}" class="tag-link" style="display: inline-block; padding: 0.2rem 0.4rem; margin-left: 0.25rem; font-size: 0.75rem; background-color: #f0f0f0; border-radius: 4px; color: #525050; text-decoration: none;">{{ tag }}</a>
+      {% endfor %}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+<p style="font-size: 0.9rem;"><a href="/notes/links">View all links →</a></p>
+{% endif %}
+
+</div>

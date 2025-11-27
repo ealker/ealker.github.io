@@ -1,0 +1,14 @@
+# Links collection
+# Add new links at the top to keep them in reverse chronological order
+# Format:
+# - title: "Link title"
+#   url: "https://example.com"
+#   description: "Brief description"
+#   tags: [tag1, tag2]
+#   date: 2025-11-27
+
+- title: "Evan Collins' are.na collection on old design styles"
+  url: "https://www.are.na/evan-collins-1522646491/channels"
+  description: "Collection of vintage and historical design styles"
+  tags: [design, history]
+  date: 2025-11-27

@@ -4,8 +4,20 @@
 }
 
 #post-tags {
-  margin-top: $small-spacing;
+  display: block;
+  width: 100%;
+  margin: $small-spacing 0 0 0;
+  padding: 0;
+  text-align: center;
   font-family: $ui-font;
+
+  a {
+    transition: $transition-quick;
+
+    &:hover {
+      background-color: $medium-gray;
+    }
+  }
 }
 
 .tags-label {

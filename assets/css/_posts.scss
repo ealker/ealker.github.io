@@ -18,7 +18,7 @@
   
   li {
     list-style: disc;
-    margin-left: $base-spacing;
+    margin-left: $no-spacing;
     padding-bottom: $small-spacing;
     color: $text-color;
     display: list-item;
@@ -32,6 +32,11 @@
   
   blockquote {
     font-style: italic;
+    padding-left: $large-spacing;
+    border-left: 3px solid $medium-gray;
+    margin-left: 0;
+    margin-right: 0;
+    color: $text-light;
   }
   
   // Improved table styling in posts
@@ -49,45 +54,43 @@
   }
 }
 
-.post-title-section {
-  margin-top: 0; /* Ensure no top margin */
-  margin-bottom: $base-spacing; /* Reduced from $large-spacing */
-  position: relative;
-  padding-bottom: $base-spacing;
-  
-  // CSS-based horizontal rule replacing the HTML <hr />
-  &::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: $medium-gray;
-  }
+.post-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $large-spacing;
+  padding-bottom: $large-spacing;
+  border-bottom: 1px solid $medium-gray;
+  width: 100%;
 }
 
 #post-title {
-  margin-bottom: $small-spacing;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
   font-size: $font-size-xxl;
   text-align: center;
-  
+  line-height: $line-height-tight;
+  width: 100%;
+
   @media (max-width: $mobile-breakpoint) {
     font-size: $font-size-xl;
   }
 }
 
 #post-date {
-  margin-top: 0;
-  color: $text-light;
-  font-size: $font-size-sm;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: $base-spacing 0 0 0;
+  padding: 0;
   font-family: $date-font;
   font-style: italic;
-  text-align: center;
+  font-size: $font-size-sm;
+  color: $text-light;
+}
+
+.post-body {
+  margin-top: $large-spacing;
 }
 
 // Blog post card styling

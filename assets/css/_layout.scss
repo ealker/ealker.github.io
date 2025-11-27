@@ -41,7 +41,7 @@ header {
       
       li {
         display: inline-block;
-        font-family: $primary-font;
+        font-family: $ui-font;
         font-size: $font-size-sm;
         font-weight: 500;
         padding: 0;
@@ -101,7 +101,7 @@ header {
         a {
           padding: $small-spacing;
           display: block;
-          font-family: $primary-font;
+          font-family: $ui-font;
         }
       }
     }

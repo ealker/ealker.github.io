@@ -1,0 +1,75 @@
+// Blogroll styles
+.blogroll-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.blogroll-item {
+  margin-bottom: $large-spacing;
+  padding-bottom: $large-spacing;
+  border-bottom: 1px solid $light-gray;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  h3 {
+    margin: 0 0 $small-spacing 0;
+    padding: 0;
+    font-size: $font-size-md;
+    font-family: $primary-font;
+
+    a {
+      color: $text-dark;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.blogroll-description {
+  margin: $small-spacing 0;
+  color: $text-color;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+.blogroll-meta {
+  display: flex;
+  align-items: center;
+  gap: $base-spacing;
+  margin-top: $small-spacing;
+  flex-wrap: wrap;
+}
+
+.blogroll-tags {
+  display: flex;
+  gap: $small-spacing;
+  flex-wrap: wrap;
+}
+
+.blogroll-location {
+  display: inline-block;
+  padding: 0.25rem $small-spacing;
+  margin: 0 0.25rem 0.5rem 0;
+  font-size: $font-size-xs;
+  background-color: $light-gray;
+  color: $text-dark;
+  border-radius: $border-radius;
+  text-decoration: none;
+  transition: $transition-quick;
+  font-family: $ui-font;
+
+  &:hover {
+    background-color: $medium-gray;
+    color: $text-dark;
+    text-decoration: none;
+  }
+}

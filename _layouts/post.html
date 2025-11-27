@@ -1,11 +1,18 @@
 ---
 layout: default
 ---
-<div class="post-content">
-  <div class="post-title-section">
+<article class="post-content">
+  <header class="post-header">
     <h1 id="post-title">{{ page.title }}</h1>
-    <p id="post-date">{{ page.date | date: "%d %B %Y" }}</p>
+
+    <time datetime="{{ page.date | date_to_xmlschema }}" id="post-date">
+      {{ page.date | date: "%d %B %Y" }}
+    </time>
+
     {% include post-tags.html %}
+  </header>
+
+  <div class="post-body">
+    {{ content }}
   </div>
-  {{ content }}
-</div>
+</article>

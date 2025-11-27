@@ -6,19 +6,39 @@ permalink: /tags/
 
 <div class="tags-page">
   {% assign tags = "" | split: "" %}
+
+  <!-- Collect tags from posts -->
   {% for post in site.posts %}
     {% for tag in post.tags %}
       {% assign tags = tags | push: tag %}
     {% endfor %}
   {% endfor %}
-  
+
+  <!-- Collect tags from links -->
+  {% for link in site.data.links %}
+    {% if link.tags %}
+      {% for tag in link.tags %}
+        {% assign tags = tags | push: tag %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
   {% assign unique_tags = tags | uniq | sort %}
-  
+
   <div class="tag-cloud">
     {% for tag in unique_tags %}
+      {% assign post_count = site.posts | where_exp: "post", "post.tags contains tag" | size %}
+      {% assign link_count = 0 %}
+      {% for link in site.data.links %}
+        {% if link.tags contains tag %}
+          {% assign link_count = link_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% assign total_count = post_count | plus: link_count %}
+
       <a href="{{ site.baseurl }}/tags/{{ tag }}" class="tag-link">
         <span class="tag-name">{{ tag }}</span>
-        <span class="tag-count">{{ site.posts | where_exp: "post", "post.tags contains tag" | size }}</span>
+        <span class="tag-count">{{ total_count }}</span>
       </a>
     {% endfor %}
   </div>

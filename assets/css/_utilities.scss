@@ -192,18 +192,3 @@
   }
 }
 
-.back-to-top-button {  
-    display: none; // hidden until scroll
-    opacity: 0.85;
-    transition: opacity 1s ease;
-
-    &:hover {
-      opacity: 1;
-      transform: translateY(-1px);
-    }
-	
-  	&::before {
-      content: "↑ ";
-      display: inline-block;
-  }
-}

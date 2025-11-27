@@ -1,0 +1,4 @@
+- name: "Phil Gyford's Website"
+  url: "https://www.gyford.com/"
+  description: "Tech and life related writing"
+  categories: [tech, life, UK]

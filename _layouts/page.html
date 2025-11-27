@@ -3,4 +3,11 @@ layout: default
 ---
 
 <h1 id="pagetitle"> {{ page.title }} </h1>
+
+{% if page.last_updated %}
+<p style="color: #767676; font-size: 0.9rem; font-family: 'Times New Roman', serif; font-style: italic; margin-top: -0.5em; margin-bottom: 2em;">
+  Last updated: {{ page.last_updated | date: "%d %B %Y" }}
+</p>
+{% endif %}
+
 {{ content }}

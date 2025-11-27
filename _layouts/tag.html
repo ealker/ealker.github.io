@@ -5,13 +5,23 @@ layout: default
   Everything tagged with "{{ page.tag }}"
 </h2>
 
+{% assign tagged_posts = site.tags[page.tag] %}
+{% assign tagged_links = "" | split: "" %}
+{% for link in site.data.links %}
+  {% if link.tags contains page.tag %}
+    {% assign tagged_links = tagged_links | push: link %}
+  {% endif %}
+{% endfor %}
+
+{% if tagged_posts.size > 0 %}
 <div class="tag-posts-list" id="bloglist">
+  <h3 style="font-size: 1.25rem; margin-bottom: 1em;">Posts</h3>
   <ul>
-    {% for post in site.tags[page.tag] %}
+    {% for post in tagged_posts %}
       <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
-        
+
         {% if post.description %}
           <p class="post-excerpt">{{ post.description }}</p>
         {% endif %}
@@ -19,6 +29,25 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% endif %}
+
+{% if tagged_links.size > 0 %}
+<div class="tag-links-list" style="margin-top: 2em;">
+  <h3 style="font-size: 1.25rem; margin-bottom: 1em;">Links</h3>
+  <ul style="list-style: none; padding-left: 0;">
+    {% for link in tagged_links %}
+      <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #f0f0f0;">
+        <h2 style="margin-top: 0;"><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></h2>
+        <span class="post-date">{{ link.date | date: "%d %B %Y" }}</span>
+
+        {% if link.description %}
+          <p style="margin-top: 0.5em;">{{ link.description }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
 <div class="button-area">
   <a href="/tags" class="standard-button back-to-all-tags-button">All Tags</a>

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Form styling
 form {
   margin-bottom: $large-spacing;
@@ -35,7 +37,7 @@ select {
   &:focus {
     color: $text-dark;
     background-color: #fff;
-    border-color: lighten($link-color, 25%);
+    border-color: color.adjust($link-color, $lightness: 25%);
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba($link-color, 0.25);
   }
@@ -114,8 +116,8 @@ select {
   border-color: $link-color;
   
   &:hover {
-    background-color: darken($link-color, 7.5%);
-    border-color: darken($link-color, 10%);
+    background-color: color.adjust($link-color, $lightness: -7.5%);
+    border-color: color.adjust($link-color, $lightness: -10%);
   }
 }
 
