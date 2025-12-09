@@ -19,7 +19,7 @@ Interesting links I've found around the web.
     <span style="margin-right: 1em;">{{ link.date | date: "%d %B %Y" }}</span>
     {% if link.tags %}
       {% for tag in link.tags %}
-        <span class="tag-link" style="display: inline-block; padding: 0.25rem 0.5rem; margin-right: 0.25rem; font-size: 0.8rem; background-color: #f0f0f0; border-radius: 4px;">{{ tag }}</span>
+        <a href="/tags/{{ tag }}" class="tag-link">{{ tag }}</a>
       {% endfor %}
     {% endif %}
   </div>
